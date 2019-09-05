@@ -1,0 +1,62 @@
+.feedback {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 300px;
+}
+
+.intro__title {
+    font-size: 18px;
+    line-height: 20.76px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.18px;
+}
+
+.intro__text {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.48px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"]::placeholder, textarea::placeholder {
+    color: #314584;;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.contact-form__input {
+    height: 61px;
+    width: 48%;
+    background-color: #f4fafe;
+    border: 0;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.contact-form__text {
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 100%;
+    background-color: #f4fafe;
+    border: 0;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 121px;
+}
+
+.contact-form__button {
+    margin: 50px auto;
+    width: 200px;
+}
